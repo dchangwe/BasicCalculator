@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BasicCalculator
+namespace Calculator
 {
     public class Calculator
     {
@@ -11,11 +11,13 @@ namespace BasicCalculator
             result = addition.Sum(a, b);
             return result;
         }
+        
         public int Divide(int a, int b)
         {
             result = Division.Divide(a, b);
             return result;
         }
+
         
     }
 }
